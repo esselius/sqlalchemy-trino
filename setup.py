@@ -33,7 +33,7 @@ setuptools.setup(
     python_requires='>=3.7',
     install_requires=[
         "sqlalchemy~=1.3",
-        "trino==0.306",
+        "trino==0.309",
     ],
     entry_points={
         "sqlalchemy.dialects": [
